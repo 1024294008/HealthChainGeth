@@ -1,0 +1,11 @@
+eth.getAccounts
+eth.accounts
+eth.getBalance(eth.accounts[0]))
+eth.getBalance(eth.accounts[0])
+eth.getBlock
+eth.getBlock()
+eth.blockNumber
+eth.getBlock(0)
+eth.coinbase
+txpool.status
+eth.accounts[0]
