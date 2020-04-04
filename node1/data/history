@@ -9,3 +9,9 @@ eth.getBlock(0)
 eth.coinbase
 txpool.status
 eth.accounts[0]
+eth.accounts
+miner.start();admin.sleepBlocks(1);miner.stop()
+eth.blockNumber
+miner.start();admin.sleepBlocks(1);miner.stop()
+eth.getBalance(eth.accounts[0])
+eth.accounts

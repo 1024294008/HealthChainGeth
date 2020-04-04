@@ -18,3 +18,15 @@
 23:06:49.214455 db@open done T·471.4008ms
 23:33:26.817692 db@close closing
 23:33:26.818191 db@close done T·499.5µs
+=============== Apr 4, 2020 (CST) ===============
+12:26:30.546739 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:26:30.569435 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+12:26:30.569435 db@open opening
+12:26:30.590509 journal@recovery F·1
+12:26:30.638484 journal@recovery recovering @3
+12:26:30.692522 memdb@flush created L0@5 N·1 S·192B "Dat..ion,v629":"Dat..ion,v629"
+12:26:30.705532 version@stat F·[2] S·50KiB[50KiB] Sc·[0.50]
+12:26:30.794617 db@janitor F·4 G·0
+12:26:30.794617 db@open done T·225.1818ms
+13:12:13.363708 db@close closing
+13:12:13.364708 db@close done T·999.5µs

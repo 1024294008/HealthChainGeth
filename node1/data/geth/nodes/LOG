@@ -6,3 +6,15 @@
 23:06:49.917946 db@open done T·54.0388ms
 23:33:26.819191 db@close closing
 23:33:26.819693 db@close done T·502.5µs
+=============== Apr 4, 2020 (CST) ===============
+12:26:31.049830 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:26:31.050832 version@stat F·[] S·0B[] Sc·[]
+12:26:31.050832 db@open opening
+12:26:31.051831 journal@recovery F·1
+12:26:31.053833 journal@recovery recovering @1
+12:26:31.133778 memdb@flush created L0@2 N·2 S·176B "loc..seq,v2":"version,v1"
+12:26:31.136795 version@stat F·[1] S·176B[176B] Sc·[0.25]
+12:26:31.273590 db@janitor F·3 G·0
+12:26:31.273590 db@open done T·222.7574ms
+13:12:13.367711 db@close closing
+13:12:13.368709 db@close done T·998.1µs
