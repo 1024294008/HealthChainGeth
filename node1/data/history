@@ -15,3 +15,11 @@ eth.blockNumber
 miner.start();admin.sleepBlocks(1);miner.stop()
 eth.getBalance(eth.accounts[0])
 eth.accounts
+miner.start()
+miner.stop()
+eth.accounts
+eth.getBalance(eth.accounts[0])
+eth.accounts[0]
+miner.start()
+miner.stop()
+eth.getBalance("0x257443734D741f9638872f4fcaD07FaBb4ecA391")
